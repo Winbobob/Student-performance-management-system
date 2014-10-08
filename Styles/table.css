@@ -1,0 +1,69 @@
+.tableHeader
+{
+    float:none; 
+    vertical-align:middle;
+    line-height:29px;
+    height:29px;
+    background:url('../Images/tableTopRowBg.gif') repeat-x; 
+    border-bottom:1px solid #fff;
+    }
+
+
+ol, ul, li { list-style: none; }
+table { border-collapse: separate; border-spacing: 0;}
+caption, th, td { text-align: left; font-weight: normal;}
+
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; } 
+.clearfix { display:inline-block; } 
+.clearfix {display:block;}
+
+.trSelected
+{
+   /* background:#E0ECFF;*/
+   background:#F4F8FB;
+}
+
+.commonTable{ width:100%;border-left:1px solid #ccc;border-bottom:1px solid #ccc;table-layout:fixed;}
+.commonTable tr th{padding-left:2px;background:#eee;border-Top:1px solid #ccc; border-bottom:1px solid #ccc;border-right:1px solid #ccc; border-left:1px solid #fff;height:24px;height:23px\9;overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
+.commonTable tr td{padding-left:2px; border-bottom:1px solid #ccc;border-right:1px solid #ccc; border-left:1px solid #eee; border-top:1px solid #fff; height:24px; overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
+.commonTable tr td.noWrap{text-overflow:auto; white-space:normal;}
+.commonTable tr td .fontSign{color:Orange;}
+.commonTable tr:hover td{background:#f6f6f6;}
+.commonTable tr.selected td{background-color:#F7FAFF; border-bottom-color:#daf1ff;border-right-color:#daf1ff;}
+.commonTable tr.common td{background-color:transparent; border-bottom-color:#eee;border-right-color:#eee;}
+.commonTable tr.hover td{background-color:#f6f6f6; border-bottom-color:#eee;border-right-color:#eee;}
+
+.pureTable{width:100%;clear:left;float:left; border-left:1px solid #ccc;border-bottom:1px solid #ccc;table-layout:fixed;}
+.pureTable tr td{padding-left:2px;border-Top:1px solid #ccc; border-bottom:1px solid #fff;border-right:1px solid #ccc;border-left:1px solid #fff;height:24px;height:23px\9;overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
+.pureTable tr.common td{background-color:transparent; border-bottom-color:#eee;border-right-color:#eee;}
+.pureTable tr td.bgGray{ background:#eee;}
+.pureTable tr.bgGray{ background:#eee;}
+.pureTable tr td.bgOver:hover{ background:#ECF3FF;}
+.input100{background-color:transparent; width:95%; border:0px solid #ccc;}
+.fieldTitle{text-align: right; padding-right: 5px; width: 100px;}
+
+
+.popup {
+	margin: 1px 0 0;
+	padding: 0px;
+	background-color: #fff;
+	position: absolute;
+	z-index: 10000;
+	border: solid 1px #999;
+	overflow: auto;
+}
+
+.popup iframe {
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+.waiting {
+	background: url(loading.gif) 0 center no-repeat;
+	margin: 0 auto;
+	text-indent: 16px;
+	width: 90px;
+}
+
+

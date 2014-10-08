@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%; overflow: hidden;">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+     <title>WEB后台管理平台</title>
+    <link rel="icon" href="Images/Logo_Lite.png"/>
+    <link rel="stylesheet" type="text/css" href="./Styles/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="./Styles/easyui.css"/>
+    <link rel="stylesheet" type="text/css" href="./Styles/icon.css"/>
+    <link type="text/css" rel="stylesheet" href="./Styles/table.css"/>
+    
+</head>
+<body class="easyui-layout layout" style="overflow: hidden; height: 100%; border: none; margin: 0px; padding: 0px;" scroll="no">
+
+ <asp:ContentPlaceHolder ID="ContentPlaceHolderCTop" runat="server">
+
+ </asp:ContentPlaceHolder>
+
+<form id="form1" runat="server">
+    <!--页面顶端Banner-->
+    <div class="panel layout-panel layout-panel-north" style="left: 0px; top: 0px; width: 1221px;">
+        <div id="northTop" style="width: 100%; height: 45px; background: url(images/northTopBgLeft.jpg) #7ED7DB repeat-x center 50%;
+            line-height: 46px; color: #fff; font-family: Verdana, 微软雅黑,黑体">
+            
+            <!--页面右上角的欢迎管理员-->
+                <div style="width: 260px; height: 100%; padding-top: 10px; float: right; text-align: right;">
+                    <div id="homeLink" class="hand" style="float: left; width: 35px;margin-top:5px;">
+                        <div id="homeImage" class="icons backHomeImage" style="cursor: pointer; float: left;"></div>
+                   </div>
+                    <div style="float:left;height:25px;">
+                        欢迎
+                        <span id="lblTrueName">xxx</span>&nbsp;&nbsp;<a href="Login.aspx" target="_blank" class="whiteLink" id="A1">后台管理</a>
+                    </div>
+                </div>
+            <span style="padding-left: 5px; padding-top: 10px;">
+                <img src="Images/logo2.png"></span>
+        </div>
+    </div>
+
+    <!--页面底部端-->
+    <div class="panel layout-panel layout-panel-south" style="left: 0px; top: 583px; width: 1221px;">
+        <div region="south" hide="true" split="false" border="false" style="height: 5px; background-color: rgb(157, 214, 253); 
+         width: 1221px; background-position: initial initial; background-repeat: initial initial;" class="layout-body panel-body panel-body-noheader panel-body-noborder" title="">
+        </div>
+    </div>
+
+    <!--页面左侧导航栏-->
+    <div class="panel layout-panel layout-panel-west layout-split-west" style="left: 0px; top: 50px; width: 175px;">
+        <div class="panel-header panel-header-top" style="width: 161px;">
+            <div class="panel-title">导航菜单</div>
+        </div>
+        <div region="west" hide="true" split="true" title="" style="width: 173px; background-color: rgb(255, 255, 255); 
+            overflow: hidden; height: 502px; background-position: initial initial; background-repeat: initial initial;" id="west" class="layout-body panel-body">  
+
+            <asp:ContentPlaceHolder id="ContentPlaceHolderLeft" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+    <!--页面中心显示区域-->
+    <div class="panel layout-panel layout-panel-center" style="left: 180px; top: 50px; width: 1041px;">
+    <div id="mainPanle" region="center" style="background-color: rgb(238, 238, 238); overflow-y: hidden; width: 1039px; height: 531px; background-position: initial initial;
+    background-repeat: initial initial;" class="layout-body panel-body panel-body-noheader" title="">
+
+        <div id="tabs" class="easyui-tabs tabs-container" fit="true" border="false" style="width: 1039px; height: 531px;"><div class="tabs-header tabs-header-noborder" style="width: 1039px;">
+        <div class="tabs-scroller-left" style="display: none;"></div>
+        <div class="tabs-scroller-right" style="display: none;"></div>
+        <div class="tabs-wrap" style="margin-left: 0px; left: 0px; width: 1039px;">
+            <ul class="tabs">
+                <li class="tabs-selected">
+                    <a href="javascript:void(0)" class="tabs-inner">
+                    <span class="tabs-title tabs-with-icon">欢迎光临</span>
+                    <span class="tabs-icon icon icon-users"></span></a>
+                </li>
+            </ul>
+        </div></div>
+
+        <div class="tabs-panels tabs-panels-noborder" style="height: 500px; width: 1039px;">
+        
+         <asp:ContentPlaceHolder id="ContentPlaceHolderMain" runat="server">
+            
+         </asp:ContentPlaceHolder>
+
+       </div></div>
+    </div></div>
+
+</form>
+</body>
+</html>
+
+
+ 

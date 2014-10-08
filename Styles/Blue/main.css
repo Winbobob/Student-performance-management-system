@@ -1,0 +1,224 @@
+html {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0;
+	overflow:auto;
+	background:#fff;
+}
+body {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+}
+
+img {
+	border:0px;
+}
+/*----------------------------------------------------------------------------表格布局Table*/
+table {
+
+	border:0px;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	border-collapse:collapse;
+
+}
+
+#tableMiddle {
+	width:100%;
+	height:100%;
+	border:0px;
+	border-width:0px;
+	margin:0px;
+	padding:0px;
+	border-collapse:collapse;
+
+}
+
+
+#tableBottom{	
+
+	left:6px;
+	right:6px;
+	}
+td {
+	font:12px arial;
+	color:#333;
+	vertical-align:top;
+}
+#tdTop {
+	height:100px;
+	background:url(../images/headerLogo.gif) no-repeat;
+}
+
+/*--Tab顶部高度定义*/
+#tdLeftTop {
+	width:202px;
+	height:29px;
+	display:"";
+}
+#tdCenterTop {
+	height:29px;
+	display:"";
+}
+#tdRightTop {
+	height:29px;
+	display:"";
+}
+#tdLeftTop2{
+	width:202px;
+	height:5px;
+}
+#tdleftBottom {
+	width:202px;
+	height:5px;
+}
+
+#tdRightMiddle{
+	vertical-align:top;
+	}
+#tdCenterTop {
+	width:8px;	
+	cursor:pointer;
+	vertical-align:top;
+}
+
+#tdCenterMiddle
+{ text-align:left;
+ vertical-align:middle;
+ cursor:pointer;
+ }
+
+
+#tdBottom{color:#36454A;width:100%;height:35px;margin:0 auto;margin-top:5px;}
+#tdBottom a:link,#tdBottom a:visited{position:relative;color:#666}
+#tdBottom .stat img{vertical-align:middle}
+
+/*-------------------------------------------------------------------------------顶部菜单Div布局*/
+
+/*------------------------------------------------------------------------------头部主体风格*/
+#topDiv {
+	padding:5px 5px;
+	height:95px;
+}
+.member {
+	color:#fff;
+	height:22px;
+	padding-top:25px;
+	padding-right:0px;
+	font:12px/29px arial;
+	text-align:right;
+}
+.member a {
+	color:#fff;
+}
+/*------------------------------------------------------------------------------Top 取出全局功能菜单*/
+#divGlobalMenu {
+	height:40px;
+	right:0px;
+	left:0xp;
+	padding:0px;
+}
+#divGlobalMenu table {
+	position:relative;
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:0px;
+	border:0px;
+	height:40px;
+	text-align:center;
+	background:url(../images/pMenuBg.gif) repeat-x;
+}
+#divGlobalMenu #Tab_GlobalMenuLeft {
+	width:115px;
+	padding-top:0px;
+	margin-bottom:0px;
+	text-align:center;
+}
+#divGlobalMenu #Tab_GlobalMenuLeft a {
+	color:#0C486A;
+	padding-top:0px;
+	margin-bottom:0px;
+	display:block;
+}
+#divGlobalMenu #Tab_GlobalMenuLeft a:hover {
+	color:#FF8400;
+}
+#divGlobalMenu .stl_GlobalMenuSpacer {
+	width:2px;
+	background:url(../images/pMenuSpacer.gif) no-repeat;
+}
+#divGlobalMenu .stl_GlobalMenuRight {
+	width:5px;
+	text-align:center;
+	background:url(../images/pMenuRight.gif) no-repeat;
+}
+#divGlobalMenu td {
+	text-align:center;
+	line-height:18px;
+}
+#divGlobalMenu td a {
+	color:#0C486A;
+	font-weight:bold;
+	height:40px;
+	padding-top:12px;
+	margin-bottom:-12px;
+	display:block;
+	word-break:keep-all;
+	white-space:nowrap;
+	text-decoration:none;
+}
+#divGlobalMenu td a:hover {
+	color:#fff;
+	height:40px;
+	padding-top:12px;
+	margin-bottom:-12px;
+	cfont-weight:bold;
+	text-decoration:none;
+	background:url(../images/pMenuBgOver.gif);
+	display:block;
+}
+#divGlobalMenu td.marked a {
+	color:#fff;
+	height:40px;
+	padding-top:12px;
+	margin-bottom:-12px;
+	font-weight:bold;
+	text-decoration:none;
+	background:url(../images/pMenuBgOver.gif);
+	display:block;
+}
+
+/*------------------------------------------------------------------------------------中间div*/
+#tabTable{height:100%;}
+
+/*页签*/
+
+#tabTable .tdClass{float:left; text-align:center;width:100px;margin-right:3px;font:12px/29px arial;background:url(../images/menuBg.gif) no-repeat;}
+#tabTable .tdClassactive{float:left; text-align:center;width:100px;height:100%; border-bottom:0px;;margin-right:3px;font:12px/29px arial;background:url(../images/menuBg_active.gif) no-repeat;}
+#tabTable .tdClass a{display:block;color:#BFF3FF;padding:0 5px;background:url(../images/menuBg_r.gif) right top no-repeat;}
+#tabTable .tdClass a:hover{color:#75ED3A}
+#tabTable .tdClass a:visited{color:#BFF3FF}
+#tabTable .tdClassactive a{display:block;color:#BFF3FF;padding:0 5px;font-weight:bold;background:url(../images/menuBg_active_r.gif) right top no-repeat;}
+#tabTable .tdClassactive a:visited{color:#0C486A;}
+	
+	
+	
+/*------------------------------------------------------------------------------------中部DIV*/
+#middleDiv{	padding:0px 5px;
+    width:100%;
+	height:100%;}
+	
+/*-------------------------------------------------------------------右边DI------------V*/	
+
+/*------------------------------------------------------------------------------------底部DIV*/
+#bottomDiv
+{	padding:4px 4px;
+	height:35px;}
+	
+	
+	

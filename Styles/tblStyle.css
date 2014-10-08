@@ -1,0 +1,17 @@
+﻿.tblStyle td
+{
+    padding: 4px;
+    margin: 4px;
+    border-style: none none groove none;
+    width: 100px;
+    text-align: center;
+    border-spacing: 0px;
+    height: 40px;
+    font-size: medium;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}

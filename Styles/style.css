@@ -1,0 +1,560 @@
+/*Czou CSS Document */
+
+/*Public Styles */
+*
+{
+    font-family: Tahoma,Verdana, "Microsoft Yahei" ,微软雅黑,新宋体,arial;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+
+body
+{
+    background: #fff;
+}
+
+.head
+{
+    letter-spacing: 1px;
+    height: 20px;
+    margin: 0 35px;
+    padding: 10px 0 0;
+    text-align: right;
+    position: relative;
+    z-index: 2;
+}
+
+.head, .head a
+{
+    color: #9C9C9C;
+    text-decoration: none;
+}
+
+.head a:hover
+{
+    text-decoration: underline;
+}
+
+.czour
+{
+    margin-right: 0;
+    width: 85px;
+    height: 30px;
+    background-color: #cccccc;
+    float: right;
+    position: relative;
+}
+
+table, td
+{
+    font-size: 12px;
+}
+
+ul, ol
+{
+    list-style: none;
+}
+
+input, select, button, button img
+{
+     vertical-align: middle;
+     font-family: Tahoma,Verdana, "Microsoft Yahei" ,微软雅黑,新宋体,arial;
+     font-size:12px;
+}
+
+a
+{
+    color: #0E7347;
+}
+
+a:hover
+{
+    color: #F30;
+    text-decoration: underline;
+}
+
+.page
+{
+    background: #fff;
+}
+
+.form
+{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+
+/*登录页面*/
+/*Background with Whole Image*/
+.divSpan, .row-line, .input-b, .input-b-hover, .input-b-disabled, .input-t, .input-t-hover, .intro li, .zxdt
+{
+    background-image: url(../images/bgimg2.jpg);
+    background-repeat: no-repeat;
+}
+
+/*Login Style*/
+.loginLogo
+{
+    width: 840px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: Auto;
+    margin-right: Auto;
+    line-height: 10px;
+    text-align: left;
+}
+
+.loginLogo span
+{
+    color: #003399;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.loginWindow
+{
+    position: relative;
+    width: 840px;
+    height: 385px;
+    margin-top: 5px;
+    margin-left: Auto;
+    margin-right: Auto;
+    line-height: 22px;
+    background: url(../Images/loginBg.jpg) no-repeat;
+}
+
+.login
+{
+    float: right;
+    width: 350px;
+    height: 320px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.login .marLeft
+{
+    margin-left: 20px;
+}
+
+.login .loginForm
+{
+    height: 215px;
+    position: relative;
+    margin-top: 10px;
+    top: 128px;
+    left: 463px;
+}
+
+.login .divSpan
+{
+    width: 300px;
+    height: 30px;
+    margin: 15px 0 10px 20px;
+    padding: 0px 0 0 0;
+    overflow: hidden;
+    background-position: 0 -36px;
+}
+.login .row
+{
+    overflow: hidden;
+    padding: 6px 0;
+}
+.login .row img
+{
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: -12px;
+    cursor: pointer;
+}
+.login .secuLeft
+{
+    margin-left: 53px;
+}
+
+.login .row-line
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 2px;
+    background-position: 0 -110px;
+}
+.login .row-btn
+{
+    padding: 10px 0 10px 53px;
+}
+.login .row-lb-l
+{
+    font-size: 12px;
+    float: left;
+    width: 50px;
+    line-height: 30px;
+    margin-right: 2px;
+    _margin-right: 7px;
+}
+.login .row-lb-r
+{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.login .input-t
+{
+    font-size: 14px;
+    color: #454545;
+    font-weight: bold;
+    border: 1px solid #737373;
+    padding: 2px 1px 1px;
+    width: 180px;
+    height: 25px;
+    background-position: 0 -72px;
+    margin-right: -5px;
+}
+.login .input-t-focus
+{
+    background: #FEFBBD;
+}
+.login .input
+{
+    font-size: 14px;
+    font-weight: bold;
+    width: 90px;
+    height: 31px;
+    text-align: center;
+    cursor: pointer;
+}
+.login .input-b
+{
+    background-position: 0 -180px;
+    border: 0px;
+}
+.login .input-b-hover
+{
+    background-position: -98px -180px;
+    border: 0px;
+}
+.login .input-b-disabled
+{
+    background-position: -98px -180px;
+}
+.login .divCheck
+{
+    margin-right: 15px;
+    font-size: 12px;
+}
+.login .divAutoLogin
+{
+    position: absolute;
+    width: 180px;
+    background-color: #ffefa4;
+    border: 1px #FF9900 solid;
+    margin-top: 0px;
+    margin-left: -190px;
+    text-align: left;
+    padding: 5px;
+    color: #dc6800;
+    display: none;
+}
+.login .err
+{
+    margin-left: 5px;
+    color: #f00;
+}
+.loginStats
+{
+    clear: both;
+    float: left;
+    color: #0066ff;
+    font-size: 12px;
+}
+.divHelp
+{
+    float: left;
+    margin-top: 25px;
+    padding-left: 50px;
+    width: 550px;
+}
+
+.intro
+{
+    width: 480px;
+    height: 550px;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    background: url(../images/bg1.jpg) no-repeat;
+}
+.intro .introLogo
+{
+    top: 25px;
+    width: 220px;
+    height: 40px;
+    position: absolute;
+    background: url(../images/loginLogo.gif) no-repeat;
+    left: -35px;
+}
+.intro .introtxt
+{
+    top: 400px;
+    eft: 0;
+    visibility: visible;
+    position: absolute;
+    line-height: 30px;
+    color: #848484;
+}
+.intro li
+{
+    font-size: 14px;
+    background-position: 0 -255px;
+    padding-left: 20px;
+}
+.intro li a
+{
+    font-size: 14px;
+}
+
+/*Footer Copyright*/
+.copyright
+{
+    position: relative;
+    left: 0px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-family: arial, '宋体' ,sans-serif;
+    font-size: 12px;
+}
+.copyright, .copyright a
+{
+    color: #9C9C9C;
+    text-decoration: none;
+}
+.copyright a, .copyright span
+{
+    text-align: left;
+    margin: 0 0px;
+}
+.copyright a:hover
+{
+    text-decoration: underline;
+}
+
+.footer
+{
+    position: relative;
+    width: 840px;
+    margin-left: Auto;
+    margin-right: Auto;
+    padding: 8px 0;
+    background-color: #333333;
+}
+
+.classLink:hover
+{
+    color: #0E7347;
+    }
+    
+.classLink
+{
+    color: #9C9C9C;
+ }    
+
+.hand{cursor:pointer;}
+.underline{text-decoration: underline;}
+
+/*loadingDiv Style*/
+.loadingDiv
+{
+    font-family: Tahoma,Verdana, "Microsoft Yahei" ,微软雅黑,新宋体,arial;
+    font-size: 12px;
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 50%;
+    top: 20px;
+    margin-left: -60px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    vertical-align: middle;
+    padding-top: 6px;
+}
+.loadingDiv img
+{
+    vertical-align: -5px;
+}
+
+/*修改密码Style*/
+.inputBg
+{
+    background-image: url(../images/bgimg2.jpg);
+    background-repeat: no-repeat;
+}
+.inputBg
+{
+    font-size: 14px;
+    color: #454545;
+    font-weight: bold;
+    border: 1px solid #C6C6C6;
+    padding: 2px 1px 1px;
+    width: 160px;
+    height: 20px;
+    background-position: 0 -112px;
+    margin-right: -5px;
+}
+.inputCellspace
+{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+.rowPassword
+{
+    width: 250px;
+    text-align: right;
+}
+.labelInfo
+{
+    color: red;
+}
+
+/*表单中的Style*/
+.inputText
+{
+    /*  background-color:transparent;*/
+    border: 0px solid #eee;
+    margin: 0px;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+    line-height: 22px;
+    padding: 0px;
+    background-color: transparent;
+}
+.inputText:hover
+{
+    border: 0px solid #cccccc;
+    background: #FEFBDD;
+}
+
+.inputChange /*当文本框数据有变化时显示字体颜色*/
+{
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+/*新增栏目*/
+.borderDiv28
+{
+    clear: both;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #cccccc;
+    white-space: nowrap;
+}
+.inputAdd
+{
+    border: 1px solid #ccc;
+    line-height: 26px;
+    height: 24px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.divCenter
+{
+    text-align: center;
+}
+.divMiddle
+{
+    vertical-align: middle;
+}
+
+
+
+/*信息列表*/
+.navImage /*导航图片*/
+{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-image: url(../images/tabicons.png);
+    background-position: -200px -220px;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    margin-left: 2px;
+    display: -moz-inline-box;
+    vertical-align: middle;
+}
+.lblNavigator, .lblInfo
+{
+    font-size: 12px;
+}
+
+.iconInfo
+{
+    background: url(../images/tabicons.png) no-repeat;
+    width: 16px;
+    line-height: 16px;
+    display: inline-block;
+}
+.icon-image
+{
+    background-position: -200px -40px;
+}
+.icon-comment
+{
+    background-position: -80px -40px;
+}
+
+.icon-show{background-position:-200px -180px;}
+.icon-file{background-position:-360px -300px;}
+
+.infoTitle
+{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.infoProperty
+{
+    font-size: 12px;
+    line-height: 20px;
+    color: green;
+}
+
+.infoContent
+{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.tdBottomLineGray
+{
+    border-bottom: 1px dotted #999;
+}
+
+.inputInnerText
+{
+    color: #dddddd;
+}
+
+.inputReadonlyText
+{
+     background: #eeeeee;
+}
